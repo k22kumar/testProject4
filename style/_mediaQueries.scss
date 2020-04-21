@@ -1,0 +1,65 @@
+@media (max-width: 950px) {
+    body {
+        font-size: 2rem;
+    }
+
+    header, footer {
+        margin: 0 50px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    .resultUl {
+        justify-content: inherit;
+    }
+
+    .movieContainer {
+        left: 50%;
+        margin: -60px;
+    }
+    
+    .movieResult {
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        margin-left: -150px;
+    }
+    .dinnerContainer .fakeCover,
+    .dinnerPlate {
+        display: none;
+    }
+
+    .dinnerContainer {
+        position: absolute;
+        left: 50%;
+        top: 60px;
+        z-index: -1;
+    }
+
+    .fakeCover {
+        width: 370px;
+        margin-left: -185px;
+    }
+
+    .movieCover {
+        z-index: 2;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 1.8rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+}
